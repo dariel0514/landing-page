@@ -1,10 +1,14 @@
 import React from "react";
+import Cardbox from "./cardbox.jsx";
 
 const Footer = () => {
     return (
-        <div id="footer">
-            <span className="position-absolute top-50 start-50 translate-middle">Copyright __ Your Website 2022</span>
-        </div>
+        <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        &copy; {new Date().getFullYear()} Copyright:{' '}
+        <a className='text-dark' href='https://mdbootstrap.com/'>
+          MDBootstrap.com
+        </a>
+      </div>
     )
 }
 export default Footer
