@@ -19,7 +19,7 @@ const NavBar  = () => {
     
 
     return (
-        <nav className="navbar navbar-expand-lg bg-dark fixed-top">
+        <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container-fluid">
         <a className="navbar-brand text-light ms-5" href="#">Start Bootstrap</a>
         {/* Toggler when screen changes */}

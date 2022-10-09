@@ -11,13 +11,15 @@ import Cardbox from "./cardbox.jsx"
 const Home = () => {
 		return (
 		      <div className="container-fluid">
-		     <div>
-		      <NavBar/>
+				  <NavBar/>
+		     <div class="card-box">
 		      <Jumbotron />
 		      <Cardbox />
+		   	</div>
+			
+				  <Footer />
 		    </div>
-		      <Footer />
-		    </div>
+			
 		);
 		};
 
